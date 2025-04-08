@@ -1,0 +1,69 @@
+@import "/style/index.css";
+
+.banner {
+  background: url("/images/Rectangle\ 1.png") no-repeat center;
+  background-size: cover;
+  height: 316px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+.banner .overlay {
+  /* background: rgba(0, 0, 0, 0.5); */
+  /* color: white; */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.banner h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 14px;
+}
+
+/* Shop Controls */
+.shop-controls {
+  background: #fff;
+  padding: 15px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shop-controls .filter-btn {
+  padding: 8px 15px;
+  border: none;
+  background: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.shop-controls .controls {
+  display: flex;
+  align-items: center;
+}
+
+.shop-controls input,
+.shop-controls select {
+  margin-left: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .shop-controls {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .shop-controls .controls {
+    margin-top: 10px;
+  }
+}
