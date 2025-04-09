@@ -41,3 +41,13 @@
 .form-group textarea {
   border: 1px solid lightgray;
 }
+.contact-summary {
+  display: flex;
+  padding: 0px 80px;
+}
+@media (max-width: 768px){
+  .contact-summary {
+    display: inline-block;
+    width: 100%;
+    
+}
