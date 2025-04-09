@@ -8,7 +8,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <link rel="stylesheet" href="/style/cart.css" />
-    <title>Contact</title>
+    <title>cart</title>
    
   <body>
     <header>
@@ -46,19 +46,38 @@
   <!-- cart section -->
    <section class="cart-section">
     <div class="product-list">
-
-    </div>
+       <table class="product-table">
+  
+        <tr class="tablehead">
+         <th>Product</th>
+         <th>Price</th>
+         <th>Quantity</th>
+        <th>Subtotal</th>
+        </tr>
+        <tr class="td">
+          <td>asgaard sofa</td>
+          <td>Bdt 250,000.00</td>
+          <td>1</td>
+          <td>Bdt 250,000.00</td>
+        </tr>
+     
+    </table>
+ </div>
     <div class="product-cart-totals">
         <h1 class="cart-title">Cart Totals</h1>
-        <div>
-            <span>subtotal</span>
-            <span>Btd 250,000.00</span>
-        </div>
-        <div>
-            <span>Total</span>
-            <span>Btd 250,000.00</span>
-        </div>
-        <button>Checkout</button>
+       <div class="invoice">
+        <div class="subtotal">
+          <span>subtotal</span>
+          <span>Btd 250,000.00</span>
+      </div>
+      <div class="subtotal">
+          <span>Total</span>
+          <span>Btd 250,000.00</span>
+      </div>
+       </div>
+       <div class="checkout">
+       <span class="checkout-btn">Checkout</span>
+      </div>
     </div>
    </section>
 

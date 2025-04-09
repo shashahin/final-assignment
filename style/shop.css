@@ -28,32 +28,29 @@
 }
 
 /* Shop Controls */
-.shop-controls {
-  background: #fff;
-  padding: 15px 5%;
+.container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
+  padding: 40px;
+  background-color: #f7efe7;
 }
-
-.shop-controls .filter-btn {
-  padding: 8px 15px;
-  border: none;
-  background: #333;
-  color: white;
-  cursor: pointer;
-}
-
-.shop-controls .controls {
-  display: flex;
-  align-items: center;
-}
-
-.shop-controls input,
-.shop-controls select {
+.icon-side i {
   margin-left: 10px;
-  padding: 5px;
-  border: 1px solid #ccc;
+}
+.spn {
+  padding: 8px 10px;
+  border-left: 1px solid black;
+  margin-left: 10px;
+}
+
+.show-side span {
+  margin-left: 10px;
+}
+.bg {
+  background-color: white;
+  padding: 12px 16px;
+  border-radius: 8px;
+  transition: 0.03s;
 }
 .content-next-btn {
   display: flex;
@@ -111,5 +108,18 @@
 
   .shop-controls .controls {
     margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+  }
+  .show-side span {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .icon-side i {
+    display: block;
+    margin-bottom: 20px;
   }
 }

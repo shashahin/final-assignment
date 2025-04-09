@@ -1,2 +1,45 @@
 @import url(/style/index.css);
 @import url(/style/shop.css);
+.cart-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  padding: 20px;
+}
+
+table {
+  border: none;
+  text-align: center;
+}
+th {
+  padding: 24px 100px;
+}
+td {
+  padding: 12px 12px;
+}
+.tablehead {
+  background-color: #f9f1e7;
+}
+
+.subtotal {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+.product-cart-totals {
+  background-color: #f9f1e7;
+  padding: 20px 16px;
+  border-radius: 8px;
+}
+
+.checkout-btn {
+  padding: 8px 20px;
+  font-size: 16px;
+  border-radius: 15px;
+  background-color: white;
+  border: 0.5px solid black;
+  margin-bottom: 30px;
+}
+.checkout {
+  margin: 0 auto;
+}
