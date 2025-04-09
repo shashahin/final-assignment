@@ -1,0 +1,43 @@
+@import url(/style/index.css);
+@import url(/style/shop.css);
+@import url(/style/checkout.css);
+
+.contact-section {
+  background-color: white;
+}
+.contact-header {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 30px;
+}
+.contact-header p {
+  color: gray;
+}
+.event {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.event-icon i {
+  font-size: 24px;
+}
+.contact span {
+  font-size: 20px;
+  font-weight: bold;
+}
+.contact p {
+  color: gray;
+  margin-top: 8px;
+}
+.form-group label {
+  font-weight: bold;
+  margin-top: 20px;
+}
+.form-group input {
+  border: 1px solid lightgray;
+}
+.form-group textarea {
+  border: 1px solid lightgray;
+}
